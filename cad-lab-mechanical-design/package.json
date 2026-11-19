@@ -1,0 +1,26 @@
+{
+  "name": "bb-plugin-cad-lab-mechanical-design",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "description": "Проектирование деталей и сборок",
+  "keywords": [
+    "bb-plugin"
+  ],
+  "engines": {
+    "bb": ">=0.0",
+    "bbPluginSdk": ">=0.6.86"
+  },
+  "bb": {
+    "name": "Проектирование деталей и сборок",
+    "description": "Проектирование деталей и сборок",
+    "branding": {
+      "icon": "BookOpen"
+    },
+    "server": "./server.ts",
+    "skills": [
+      "skills"
+    ]
+  }
+}
