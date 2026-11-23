@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "cad-lab-design-engineer",
+  "version": "0.1.0",
+  "kind": "profession",
+  "displayName": "Инженер-конструктор",
+  "description": "Инженер-конструктор",
+  "skill": "design-engineer",
+  "dependencies": [
+    {
+      "name": "cad-lab-mechanical-design",
+      "version": "^0.1.0"
+    },
+    {
+      "name": "cad-lab-drawing-preparation",
+      "version": "^0.1.0"
+    },
+    {
+      "name": "cad-lab-drawing-review",
+      "version": "^0.1.0"
+    }
+  ]
+}

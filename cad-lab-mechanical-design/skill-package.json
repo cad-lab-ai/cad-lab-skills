@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cad-lab-mechanical-design",
+  "version": "0.1.0",
+  "kind": "skill",
+  "displayName": "Проектирование деталей и сборок",
+  "description": "Проектирование деталей и сборок",
+  "skill": "mechanical-design",
+  "dependencies": []
+}

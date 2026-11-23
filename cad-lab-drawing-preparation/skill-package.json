@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cad-lab-drawing-preparation",
+  "version": "0.1.0",
+  "kind": "skill",
+  "displayName": "Подготовка чертежей",
+  "description": "Подготовка чертежей",
+  "skill": "drawing-preparation",
+  "dependencies": []
+}

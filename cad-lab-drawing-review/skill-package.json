@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cad-lab-drawing-review",
+  "version": "0.1.0",
+  "kind": "skill",
+  "displayName": "Проверка чертежей",
+  "description": "Проверка чертежей",
+  "skill": "drawing-review",
+  "dependencies": []
+}
