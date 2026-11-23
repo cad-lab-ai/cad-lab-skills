@@ -9,6 +9,10 @@
 | cad-lab-mechanical-design | Проектирование деталей и сборок | Нет |
 | cad-lab-drawing-preparation | Подготовка чертежей | Нет |
 | cad-lab-drawing-review | Проверка чертежей | Нет |
+| cad-lab-manufacturing-engineer | Технолог | Три навыка ниже |
+| cad-lab-manufacturing-review | Технический контроль КД | Нет |
+| cad-lab-route-planning | Построение маршрутной карты | Нет |
+| cad-lab-operation-planning | Построение операционной карты | Нет |
 
 Пакет содержит декларативный `skill-package.json` и
 `skills/<имя-навыка>/SKILL.md` с соседними ресурсами. Манифест задаёт

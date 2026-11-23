@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cad-lab-manufacturing-review",
+  "version": "0.1.0",
+  "kind": "skill",
+  "displayName": "Технический контроль КД",
+  "description": "Технический контроль КД",
+  "skill": "manufacturing-review",
+  "dependencies": []
+}

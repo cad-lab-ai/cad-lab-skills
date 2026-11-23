@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "cad-lab-manufacturing-engineer",
+  "version": "0.1.0",
+  "kind": "profession",
+  "displayName": "Технолог",
+  "description": "Технолог",
+  "skill": "manufacturing-engineer",
+  "dependencies": [
+    {
+      "name": "cad-lab-manufacturing-review",
+      "version": "^0.1.0"
+    },
+    {
+      "name": "cad-lab-route-planning",
+      "version": "^0.1.0"
+    },
+    {
+      "name": "cad-lab-operation-planning",
+      "version": "^0.1.0"
+    }
+  ]
+}

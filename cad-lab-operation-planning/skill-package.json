@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cad-lab-operation-planning",
+  "version": "0.1.0",
+  "kind": "skill",
+  "displayName": "Построение операционной карты",
+  "description": "Построение операционной карты",
+  "skill": "operation-planning",
+  "dependencies": []
+}

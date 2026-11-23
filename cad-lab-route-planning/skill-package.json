@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cad-lab-route-planning",
+  "version": "0.1.0",
+  "kind": "skill",
+  "displayName": "Построение маршрутной карты",
+  "description": "Построение маршрутной карты",
+  "skill": "route-planning",
+  "dependencies": []
+}
