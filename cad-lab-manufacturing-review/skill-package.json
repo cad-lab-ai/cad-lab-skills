@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cad-lab-manufacturing-review",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "kind": "skill",
   "displayName": "Технический контроль КД",
   "description": "Проверка возможности изготовления и контроля изделия по КД с учётом оборудования, оснастки и ограничений производства.",

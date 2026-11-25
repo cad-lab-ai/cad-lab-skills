@@ -28,6 +28,10 @@ skill и dependencies (name/version). Исполняемого сервера и
 Источник изменений — GitLab. Push выполняется только туда; публичная копия
 [cad-lab-ai/cad-lab-skills](https://github.com/cad-lab-ai/cad-lab-skills)
 обновляется push mirror. Перед выпуском проверяется совпадение коммитов.
+Для сетевого каталога создайте тег проверенного коммита и отправьте его в GitLab.
+Дождитесь появления тега на публичном зеркале, затем обновите каталог API.
+Выпущенный тег сохраняет содержимое манифестов для действующего каталога и старых
+клиентов. Следующий выпуск получает новый тег.
 Лицензия остаётся UNLICENSED. Общие документы продукта — в docs/ контейнера cad-lab.
 
 ## Профили агентов и workflow
@@ -38,7 +42,8 @@ skill и dependencies (name/version). Исполняемого сервера и
 для совместимых клиентов. Синхронизация с манифестами и каталогом:
 
 ~~~sh
-node scripts/sync-content.mjs --catalog ../api/src/skill-catalog.json
+node scripts/sync-content.mjs
+node scripts/sync-content.mjs --catalog ../api/src/skill-catalog.json --tag <публичный-тег>
 ~~~
 
 Пакет cad-lab-drawing-workflow содержит только граф и зависимости на обе профессии.

@@ -30,3 +30,5 @@
 `sdk.skills.packages.change({ id, action })`.
 
 [Формат пакета, синхронизация профилей и выпуск](docs/package-format.md).
+
+Для учебных маршрутных карт доступен [паспорт вымышленного завода «СеверНефтеОснастка» версии 1.1](docs/examples/manufacturing/factory-oilfield-tooling-v1.1.md).
