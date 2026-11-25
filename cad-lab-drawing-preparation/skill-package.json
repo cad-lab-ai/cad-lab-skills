@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cad-lab-drawing-preparation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "kind": "skill",
   "displayName": "Подготовка чертежей",
   "description": "Оформление рабочего чертежа по ЕСКД: виды и разрезы, размеры, допуски, шероховатость и технические требования.",
